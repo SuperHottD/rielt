@@ -1,0 +1,127 @@
+.six_step h2 {
+    font-weight: 700;
+    font-size: 40px;
+    
+    padding-top: 70px;
+    text-align: center;
+    }
+    
+    .six_step_text{
+        
+    max-width: 950px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+    margin: 0 auto;
+    }
+    
+    .six_step_items {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 130px;
+        row-gap: 50px;
+    }
+    
+    
+    .six_step_item {
+        width: calc( 100% / 2 - 65px);
+    }
+    
+    .text_item img {
+        z-index: -10;
+        position: absolute;
+        transform: translateY(50px);
+    }
+    
+    .text_item h3 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 94px;
+        padding-bottom: 29px;
+    
+        margin-left: 88px;
+        color: var(--brown-light)
+    }
+    
+    .text_item p {
+    font-weight: 400;
+    font-size: 17px;
+    
+    
+    margin: 0;
+    
+    text-align-last: left;
+    }
+    
+    .text_item p::before {
+        content: "•";
+        display: inline-block;
+        transform: translateX(-5px);
+    }
+    
+    .sixStep_button {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        flex-wrap: wrap;
+    
+        color: #FFFFFF;
+        padding-left: 13px;
+    }
+    
+    .six_step_button1 {
+        background-color: var(--brown-light);
+    
+        max-width: 465px;
+        height: 61px;
+        border-radius: 7px;
+    
+        align-items: center;
+        display: flex;
+        
+        margin-top: 30px;
+    }
+    
+    .six_step_button2 {
+        background-color: var(--brown-light);
+    
+        max-width: 340px;
+        height: 61px;
+        border-radius: 7px;
+    
+        align-items: center;
+        display: flex;
+        
+        margin-top: 30px;
+    }
+    
+    .six_step_button3 {
+        background-color: var(--brown-light);
+    
+        max-width: 415px;
+        height: 61px;
+        border-radius: 7px;
+    
+        align-items: center;
+        display: flex;
+        
+        margin-top: 30px;
+    }
+    
+    .six_step_button1:hover, .six_step_button2:hover, .six_step_button3:hover {
+        background-color: #edcf66;
+    }
+    
+    .six_step_button::after {
+        content: url(/img/icon/back.svg);
+    }
+    
+    .sixStep_button_img {
+        margin: 18px 25px 18px 20px;
+    }

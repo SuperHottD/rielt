@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url(../font/FuturaCyrillic-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url(../font/FuturaCyrillicBook.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url(../font/FuturaCyrillicLight.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --brown-light: #B09A4B;
+    --yellow-light: #F6E7AD;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+    text-decoration: none;
+	color: #1B2534;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li {
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.container{
+    font-family: 'Futura PT';
+    font-style: normal;
+
+	max-width: 1280px; 
+	margin: 0 auto;  
+	box-sizing: border-box; 
+    padding: 0 20px;
+
+    text-transform: none;
+}

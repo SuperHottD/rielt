@@ -1,0 +1,92 @@
+.advert {
+    background: url(../img/sect5/Скриншот\ 10-10-2024\ 172558\ 1.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.advert_text h4 {
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 73px;
+
+    max-width: 700px;
+    padding-top: 140px;
+    padding-bottom: 35px;
+
+    color: var(--brown-light);
+}
+
+.advert_text h5 {
+    font-weight: 700;
+    font-size: 32px;
+
+    max-width: 620px;
+    margin-bottom: 35px;
+
+    color: #000000;
+}
+
+.callForm_row1 p {
+    font-weight: 400;
+    font-size: 22px;
+
+    margin-bottom: 55px;
+    max-width: 620px;
+
+    color: #000000;
+}
+
+.callForm_row2 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-bottom: 140px;
+}
+
+.callForm_row2 input {
+    background-color: #fff;
+    padding: 0 10px;
+    border-color: var(--brown-light);
+    color: rgba(30, 50, 64, 0.4);
+    border: 1px solid #F6E7AD;
+
+    border-radius: 7px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    box-sizing: border-box;
+    
+    width: 216px;
+    height: 60px;
+    
+}
+
+.callForm_row2 input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    outline: none;
+}
+
+.callForm a {
+    width: 216px;
+    height: 60px;
+    background-color: #B09A4B;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 10px;
+
+    font-weight: 700;
+    font-size: 22px;
+
+    color: #FFFFFF;
+}
+
+.callForm a:hover {
+    background-color: #d7bd5e;    
+}

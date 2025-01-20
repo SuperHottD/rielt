@@ -1,0 +1,124 @@
+.client_review {
+    background: url(../img/sect2/Rectangle\ 4.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.client_reviewTytle {
+max-width: 692px;
+margin: 0 auto;
+padding-top: 70px;
+padding-bottom: 55px;
+
+font-weight: 700;
+font-size: 40px;
+line-height: 51px;
+
+display: flex;
+text-align: center;
+}
+
+.swiper_slide {
+    background-color: #F6E7AD;
+    border-radius: 7px;
+}
+
+.swiper_headerText {
+    padding: 30px 20px 55px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #2D3558;
+}
+
+.swiper_slide h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+
+    padding-left: 21px;
+}
+
+.swiper_footerText  {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 40px;
+
+    color: #2C3557;
+
+    padding-left: 21px;
+    padding-bottom: 22px;
+}
+
+.swiper_slide {
+    position: relative;
+}
+
+.swiper_slide::after {
+    content: "";
+    width: 100px;
+    aspect-ratio: 1;
+    background: url(../img/sect2/Ellipse\ 6.png);
+    position: absolute;
+    right: 30px;
+    top: 88%;
+}
+
+.client_rewiewButton {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.client_rewiewButton a:first-of-type {
+    background-color: #0095FF;
+    color: #FFFFFF;
+    font-size: 20px;
+
+    width: 287px;
+    height: 61px;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client_rewiewButton a:first-of-type:hover {
+    background-color: #007ed8;
+}
+
+.client_rewiewButton a:last-of-type {
+    background-color: #009E36;
+    color: #FFFFFF;
+    font-size: 20px;
+
+    width: 287px;
+    height: 61px;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client_rewiewButton a:last-of-type:hover {
+    background-color: #00a439;
+}
+
+.client_review_footerTytle {
+    max-width: 692px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 40px; 
+    line-height: 51px;
+
+    text-align: center;
+}
