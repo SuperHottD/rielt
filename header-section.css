@@ -1,0 +1,121 @@
+.header_section {
+    background: url(../img/header-section/header-photo.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.welcome_section {
+    position: relative;
+}
+
+.name_tytle {
+    font-size: 76px;
+    font-weight: 700;
+    color: var(--brown-light);
+
+    line-height: 97px;
+}
+
+.welcome_section h1 {
+    margin-top: 137px;
+}
+
+.name_subtytle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+    color: #000000;
+}
+
+.welcome_section h2 {
+    margin-top: 8px;
+    margin-bottom: 62px;
+}
+
+.welcome_element {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.welcome_element img{
+    width: 92px;
+    height: 70px;
+}
+
+.welcome_subElement {
+    padding-left: 42px;
+}
+
+.welcome_subElement h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--brown-light);
+}
+
+.welcome_subElement p {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.buttons {
+    padding-top: 72px;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    row-gap: 20px;
+}
+
+.welcome_button {
+    padding-bottom: 64px;
+}
+
+.button {
+    display: flex;
+    background-color: var(--yellow-light);
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #d5bb5d;
+}
+
+.button a {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 13px;
+}
+
+.button img {
+    box-sizing: content-box;
+    padding: 16px;
+    width: 25px;
+}
+
+.button1 {
+    width: 157px;
+    height: 61px;
+    overflow: hidden;
+}
+
+.button2 {
+    max-width: 250px;
+    height: 61px;
+}
+
+.button3  {
+    max-width: 236px; 
+    height: 61px;
+    z-index: 10;
+}
+
+.welcome_photo {
+    position: absolute; 
+    left: 370px;
+    top: -68px;
+}
