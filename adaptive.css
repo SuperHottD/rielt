@@ -187,6 +187,12 @@
         color: #fff;
     }
 
+            .footer_buttons {
+        flex-direction: column;
+        margin-inline: 0;
+        align-items: center;
+    }
+
 }
 @media (max-width: 680px) {
 
@@ -252,11 +258,7 @@
         top: -10%;
     }
 
-    .footer_buttons {
-        flex-direction: column;
-        margin-inline: 0;
-        align-items: center;
-    }
+
 }
 
 
